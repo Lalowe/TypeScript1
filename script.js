@@ -1,0 +1,8 @@
+"use strict";
+var myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i of myArray) { // 1
+    for (let y of myArray) {
+        let result = `${i} X  ${y}  = ${i * y}`;
+        console.log(result);
+    }
+}
